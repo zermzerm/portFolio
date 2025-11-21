@@ -13,15 +13,7 @@ export default function RootLayout({children}: {children: React.ReactNode}) {
   return (
     <html lang="ko">
       <body>
-        <nav className="text-white absolute w-full h-[50px] text-[50px] font-bold flex justify-evenly items-center">
-          <div
-            onClick={() => {
-              handleScroll("main");
-            }}
-            className="cursor-pointer"
-          >
-            main
-          </div>
+        <nav className="text-[#4b5563] absolute w-full h-[50px] text-[50px] font-bold flex justify-evenly items-center">
           <div
             onClick={() => {
               handleScroll("about");

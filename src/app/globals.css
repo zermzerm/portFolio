@@ -9,5 +9,13 @@
 html,
 body {
   height: 100%;
-  overflow: hidden;
+}
+
+/* 스크롤바 없애기 */
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none; /* IE, Edge */
+  scrollbar-width: none; /* Firefox */
 }
