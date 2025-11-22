@@ -13,38 +13,43 @@ export default function RootLayout({children}: {children: React.ReactNode}) {
   return (
     <html lang="ko">
       <body>
-        <nav className="text-[#4b5563] absolute w-full h-[50px] text-[50px] font-bold flex justify-evenly items-center">
-          <div
-            onClick={() => {
-              handleScroll("about");
-            }}
-            className="cursor-pointer"
-          >
-            about
+        <nav className="text-[#4b5563] absolute  w-screen h-[50px] text-[18px] font-bold flex justify-between items-center px-8">
+          <div>
+            <span>PKS</span>
           </div>
-          <div
-            onClick={() => {
-              handleScroll("skills");
-            }}
-            className="cursor-pointer"
-          >
-            skills
-          </div>
-          <div
-            onClick={() => {
-              handleScroll("projects");
-            }}
-            className="cursor-pointer"
-          >
-            projects
-          </div>
-          <div
-            onClick={() => {
-              handleScroll("contact");
-            }}
-            className="cursor-pointer"
-          >
-            contact
+          <div className="flex gap-[24px]">
+            <span
+              onClick={() => {
+                handleScroll("about");
+              }}
+              className="cursor-pointer"
+            >
+              About
+            </span>
+            <span
+              onClick={() => {
+                handleScroll("skills");
+              }}
+              className="cursor-pointer"
+            >
+              Skills
+            </span>
+            <span
+              onClick={() => {
+                handleScroll("projects");
+              }}
+              className="cursor-pointer"
+            >
+              Projects
+            </span>
+            <span
+              onClick={() => {
+                handleScroll("contact");
+              }}
+              className="cursor-pointer"
+            >
+              Contact
+            </span>
           </div>
         </nav>
         {children}
