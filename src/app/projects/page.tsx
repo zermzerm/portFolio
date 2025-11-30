@@ -4,7 +4,7 @@ import {PROJECT} from "@/constants/project";
 export default function Projects() {
   return (
     <section
-      className="py-[96px] bg-[#E0D6E6] flex flex-col justify-center items-center"
+      className="py-[96px] bg-[#dfdcf7] flex flex-col justify-center items-center"
       id="projects"
     >
       <h1 className="text-[32px] font-bold">Projects</h1>
