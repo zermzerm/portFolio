@@ -122,4 +122,24 @@ export const PROJECT = [
       "로그인/회원가입 페이지",
     ],
   },
+  {
+    id: 6,
+    name: "포트폴리오 사이트",
+    date: "2025.11.27 - 2025.12.02",
+    images: [
+      ["/images/project/portfolio/Portfolio1.png", "Portfolio1"],
+      ["/images/project/portfolio/Portfolio2.png", "Portfolio2"],
+      ["/images/project/portfolio/Portfolio3.png", "Portfolio3"],
+      ["/images/project/portfolio/Portfolio4.png", "Portfolio4"],
+    ],
+    skills: "Nextjs, TypeScript, Tailwind, framer-motion, Vercel",
+    github: "https://github.com/zermzerm/wtn",
+    deployment: "https://pks-portfolio-v2.vercel.app/",
+    description: "1인 미니프로젝트, App Router, Tailwind, framer-motion 학습하기 위해 만든 사이트",
+    accomplishment: [
+      "전체적인 페이지 퍼블리싱",
+      "Styled-components에서 Tailwind로 마이그레이션",
+      "framer-motion 전체적으로 적용",
+    ],
+  },
 ];
