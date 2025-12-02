@@ -27,7 +27,7 @@ export default function ProjectCard({data}: ProjectProps) {
     <div className="flex flex-col gap-6 p-6 w-[1250px] bg-[#48407b] text-white rounded-2xl">
       <h2 className="text-center text-2xl">{data.name}</h2>
       <div className="text-center">{data.date}</div>
-      <div className="flex justify-between gap-5">
+      <div className="flex justify-between gap-7">
         <div className="flex-1 flex flex-col gap-3 justify-center items-center">
           <div className="w-[600px] h-[400px] overflow-hidden rounded-xl">
             <Swiper
@@ -85,7 +85,7 @@ export default function ProjectCard({data}: ProjectProps) {
             <h3 className="text-xl font-bold pb-1">역할 및 성과</h3>
             <ul>
               {data.accomplishment.map((el, idx) => (
-                <li key={idx} className="text-[16px] leading-6 list-disc list-inside">
+                <li key={idx} className="text-[16px] leading-8 list-disc list-inside">
                   {el}
                 </li>
               ))}
