@@ -8,7 +8,7 @@ export default function Projects() {
       id="projects"
     >
       <h1 className="text-[32px] font-bold">Projects</h1>
-      <div className="p-5 text flex flex-col gap-6">
+      <div className="p-6 text flex flex-col gap-6">
         {PROJECT.map((el) => (
           <ProjectCard data={el} key={el.id} />
         ))}
