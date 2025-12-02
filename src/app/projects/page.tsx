@@ -12,10 +12,10 @@ export default function Projects() {
     >
       <h1 className="text-[32px] font-bold">Projects</h1>
       <motion.div
-        initial={{opacity: 0, y: 80}}
+        initial={{opacity: 0, y: 180}}
         whileInView={{opacity: 1, y: 0}}
         viewport={{once: false, amount: 0.1}}
-        transition={{duration: 0.7, ease: "easeOut"}}
+        transition={{duration: 0.3, ease: "easeOut"}}
         className="p-6 text flex flex-col gap-6"
       >
         {PROJECT.map((el) => (

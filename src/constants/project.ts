@@ -83,7 +83,7 @@ export const PROJECT = [
     ],
     skills: "React, CSS Modules, react-i18next, Axios, qrcode.react, react-pdf, react-modal",
     github: "https://github.com/zermzerm/translation-room",
-    description: " 개인 및 팀 일정을 함께 관리할 수 있는 반응형 칸반보드 플랫폼",
+    description: "1인 미니프로젝트, 개인 및 팀 일정을 함께 관리할 수 있는 반응형 칸반보드 플랫폼",
     accomplishment: [
       "메인 화면 퍼블리싱 및 검색, 필터링 기능 구현",
       "번역방 생성 모달 구현(react-modal, qrcode.react)",
@@ -110,7 +110,7 @@ export const PROJECT = [
     ],
     skills: "React, Nextjs, TypeScript, Styled-Components",
     github: "https://github.com/zermzerm/wtn",
-    description: "App Router 학습을 위해 만들어본 웹툰 리뷰 사이트",
+    description: "1인 미니프로젝트, App Router 학습을 위해 만들어본 웹툰 리뷰 사이트",
     accomplishment: [
       "전체적인 페이지 퍼블리싱",
       "메인 페이지(swiper, css 애니메이션 학습)",

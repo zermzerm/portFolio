@@ -14,10 +14,10 @@ export default function Skills() {
 
       <div className="flex gap-5 p-6">
         <motion.div
-          initial={{opacity: 0, x: -80}}
+          initial={{opacity: 0, x: -200}}
           whileInView={{opacity: 1, x: 0}}
-          viewport={{once: false, amount: 0.2}}
-          transition={{duration: 0.7, ease: "easeOut"}}
+          viewport={{once: false, amount: 0.45}}
+          transition={{duration: 0.4, ease: "easeOut"}}
           className="p-6 bg-[#bfb9e6] rounded-2xl flex flex-col gap-5"
         >
           <h2 className="text-2xl text-center">Technology Stacks</h2>
@@ -28,10 +28,10 @@ export default function Skills() {
         </motion.div>
 
         <motion.div
-          initial={{opacity: 0, x: 80}}
+          initial={{opacity: 0, x: 200}}
           whileInView={{opacity: 1, x: 0}}
-          viewport={{once: false, amount: 0.2}}
-          transition={{duration: 0.7, ease: "easeOut"}}
+          viewport={{once: false, amount: 0.45}}
+          transition={{duration: 0.4, ease: "easeOut"}}
           className="flex flex-col gap-5"
         >
           <SkillCard type={SKILLS.version} />
