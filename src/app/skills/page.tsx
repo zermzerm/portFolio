@@ -1,5 +1,8 @@
+"use client";
+
 import SkillCard from "@/app/skills/_components/SkillCard";
 import {SKILLS} from "@/constants/skill";
+import {motion} from "framer-motion";
 
 export default function Skills() {
   return (
@@ -8,22 +11,32 @@ export default function Skills() {
       id="skills"
     >
       <h1 className="text-[32px] font-bold ">Skills</h1>
-      <div className="flex gap-5 p-6 ">
-        <div className="p-6 bg-[#bfb9e6] rounded-2xl flex flex-col gap-5">
+
+      <div className="flex gap-5 p-6">
+        <motion.div
+          initial={{opacity: 0, x: -80}}
+          whileInView={{opacity: 1, x: 0}}
+          viewport={{once: false, amount: 0.2}}
+          transition={{duration: 0.7, ease: "easeOut"}}
+          className="p-6 bg-[#bfb9e6] rounded-2xl flex flex-col gap-5"
+        >
           <h2 className="text-2xl text-center">Technology Stacks</h2>
-          {/* 언어 및 프레임워크 */}
+
           <SkillCard type={SKILLS.languages} />
-          {/* 상태 관리 및 라이브러리 */}
           <SkillCard type={SKILLS.library} />
-          {/* 스타일링 */}
           <SkillCard type={SKILLS.styling} />
-        </div>
-        <div className="flex flex-col gap-5">
-          {/* 버전 관리 */}
+        </motion.div>
+
+        <motion.div
+          initial={{opacity: 0, x: 80}}
+          whileInView={{opacity: 1, x: 0}}
+          viewport={{once: false, amount: 0.2}}
+          transition={{duration: 0.7, ease: "easeOut"}}
+          className="flex flex-col gap-5"
+        >
           <SkillCard type={SKILLS.version} />
-          {/* 배포 */}
           <SkillCard type={SKILLS.deployment} />
-        </div>
+        </motion.div>
       </div>
     </section>
   );
