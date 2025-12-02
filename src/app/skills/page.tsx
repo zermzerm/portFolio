@@ -14,7 +14,7 @@ export default function Skills() {
           {/* 언어 및 프레임워크 */}
           <SkillCard type={SKILLS.languages} />
           {/* 상태 관리 및 라이브러리 */}
-          <SkillCard type={SKILLS.languages} />
+          <SkillCard type={SKILLS.library} />
           {/* 스타일링 */}
           <SkillCard type={SKILLS.styling} />
         </div>

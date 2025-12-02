@@ -12,7 +12,7 @@ export default function SkillCard({type}: SkillType) {
   return (
     <div
       className={`flex flex-col gap-2 ${
-        type.variant && "p-5 bg-[#bfb9e6] text-[#2F4F4F] rounded-2xl"
+        type.variant && "p-5 bg-[#bfb9e6] text-[#172626] rounded-2xl"
       }`}
     >
       <h3 className={`${type.variant && "text-2xl text-center pb-5"} text[16px]`}>{type.name}</h3>

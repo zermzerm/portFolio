@@ -23,7 +23,7 @@ interface ProjectProps {
 
 export default function ProjectCard({data}: ProjectProps) {
   return (
-    <div className="flex flex-col gap-5 p-5 w-[1100px] bg-[#9085d2] text-white rounded-2xl">
+    <div className="flex flex-col gap-5 p-5 w-[1100px] bg-[#48407b] text-white rounded-2xl">
       <h2 className="text-center text-2xl">{data.name}</h2>
       <div className="text-center">{data.date}</div>
       <div className="flex justify-between gap-5">
