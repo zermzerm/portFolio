@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   title: "PKS Portfolio",
   description: "내가 만든 포트폴리오 사이트",
   icons: {
-    icon: [{url: "/favicon.ico", type: "image/ico"}],
+    icon: [{url: "/favicon.ico", type: "image/x-icon"}],
   },
   openGraph: {
     type: "website",
