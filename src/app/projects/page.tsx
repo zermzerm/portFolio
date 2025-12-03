@@ -8,7 +8,7 @@ export default function Projects() {
   return (
     <section
       className="py-[96px] bg-[#dfdcf7] flex flex-col justify-center items-center"
-      id="projects"
+      id="Projects"
     >
       <h1 className="text-[32px] font-bold">Projects</h1>
       <motion.div

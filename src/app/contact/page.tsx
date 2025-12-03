@@ -5,7 +5,7 @@ export default function Contact() {
   return (
     <section
       className="py-[96px] text-white bg-[#2e2c3e] flex flex-col justify-around items-center gap-10"
-      id="contact"
+      id="Contact"
     >
       <h1 className="text-[32px] font-bold text-center">Contact</h1>
       <div className="flex gap-[200px] text-center">

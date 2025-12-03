@@ -1,6 +1,8 @@
 "use client";
 import {motion, AnimatePresence} from "framer-motion";
 
+const NavElement = ["About", "Skills", "Projects", "Contact"];
+
 export default function Navbar() {
   const handleScroll = (id: string) => {
     const element = document.getElementById(id);
@@ -24,18 +26,11 @@ export default function Navbar() {
           </span>
         </div>
         <div className="flex gap-[24px]">
-          <span onClick={() => handleScroll("about")} className="cursor-pointer">
-            About
-          </span>
-          <span onClick={() => handleScroll("skills")} className="cursor-pointer">
-            Skills
-          </span>
-          <span onClick={() => handleScroll("projects")} className="cursor-pointer">
-            Projects
-          </span>
-          <span onClick={() => handleScroll("contact")} className="cursor-pointer">
-            Contact
-          </span>
+          {NavElement.map((el, idx) => (
+            <span onClick={() => handleScroll(`${el}`)} className="cursor-pointer" key={idx}>
+              {el}
+            </span>
+          ))}
         </div>
       </motion.nav>
     </AnimatePresence>

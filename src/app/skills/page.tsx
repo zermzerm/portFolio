@@ -8,7 +8,7 @@ export default function Skills() {
   return (
     <section
       className="py-[96px] bg-[#F8F0FC] flex flex-col justify-center items-center"
-      id="skills"
+      id="Skills"
     >
       <h1 className="text-[32px] font-bold ">Skills</h1>
 
@@ -21,7 +21,6 @@ export default function Skills() {
           className="p-6 bg-[#bfb9e6] rounded-2xl flex flex-col gap-5"
         >
           <h2 className="text-2xl text-center">Technology Stacks</h2>
-
           <SkillCard type={SKILLS.languages} />
           <SkillCard type={SKILLS.library} />
           <SkillCard type={SKILLS.styling} />

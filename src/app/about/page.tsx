@@ -9,7 +9,7 @@ const sentence = {
     opacity: 1,
     transition: {
       delay: 0.2,
-      staggerChildren: 0.012, // 글자마다 0.03초 텀
+      staggerChildren: 0.012,
     },
   },
 };
@@ -28,7 +28,7 @@ export default function About() {
   ];
 
   return (
-    <section id="about">
+    <section id="About">
       <div className="min-h-[600px] flex justify-center items-center bg-[#bfb9e6]">
         <div className="flex gap-[100px]">
           <motion.div
@@ -63,6 +63,7 @@ export default function About() {
                 {line.split("").map((el, idx) => (
                   <motion.span key={idx} variants={letter}>
                     {el === " " ? "\u00A0" : el}
+                    {/* el이 공백이면 HTML에서 무시되기 때문에 깨지지 않는 공백 \u00A0으로 대체 */}
                   </motion.span>
                 ))}
               </motion.p>
