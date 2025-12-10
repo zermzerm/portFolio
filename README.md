@@ -4,10 +4,11 @@
 
 ## 🛠️ 기술 스택
 
-- Next.js 15v
+- Next.js(App Router)
 - TypeScript
 - TailwindCSS
 - Framer-motion
+- Swiper/react
 - Vercel
 
 ---
