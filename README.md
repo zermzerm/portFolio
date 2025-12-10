@@ -1,8 +1,8 @@
 # PKS Portfolio site
 
-## 포트폴리오 사이트 - Next.js, TypeScript, TailwindCSS 기반 구현
+## 💬 포트폴리오 사이트 - Next.js, TypeScript, TailwindCSS 기반 구현
 
-### 🌐 Deploy
+## 🌐 Deploy
 
 https://pks-portfolio-v2.vercel.app/
 
